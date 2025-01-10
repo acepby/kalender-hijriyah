@@ -24,7 +24,7 @@ This plugin provides a comprehensive and interactive Hijri calendar for WordPres
 ### Steps
 
 1. **Download the Plugin:**
-   - Download the plugin files from the [GitHub repository](https://github.com/your-repo/kalender-hijriyah) or the provided zip file.
+   - Download the plugin files from the [GitHub repository](https://github.com/acepby/kalender-hijriyah) or the provided zip file.
 
 2. **Upload the Plugin:**
    - Go to your WordPress admin dashboard.
