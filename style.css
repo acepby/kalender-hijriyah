@@ -1,0 +1,95 @@
+/* Add styles for the Hijri Calendar */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+.calendar {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+.elegant-button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.elegant-button:hover {
+    background-color: #45a049;
+}
+
+
+.label-style {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.card {
+    background-color:rgba(249, 249, 249, 0.16);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.27);
+    padding: 10px;
+    margin: 10px;
+}
+
+.calendar-container {
+    text-align: center;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: lightblue;
+}
+
+.calendar-grid .day-header {
+    background-color: lightblue;
+    //text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+}
+
+.calendar-grid .day-cell {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.calendar-grid .today {
+    background-color: black;
+    color: white;
+}
+
+.calendar-grid .tooltip {
+    background-color: #EDF08A;
+    color: blue;
+}
+
+.calendar-grid .sunday {
+    background-color: pink;
+}
+
+.calendar-grid .friday {
+    background-color: lightgreen;
+}
